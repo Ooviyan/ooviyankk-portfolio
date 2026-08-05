@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1030"/>
+      <stop offset="55%" stop-color="#33307a"/>
+      <stop offset="100%" stop-color="#22d3c9"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="20%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg2)"/>
+  <rect width="600" height="600" fill="url(#glow2)"/>
+  <g opacity="0.1" stroke="#ffffff" stroke-width="1">
+    <circle cx="300" cy="300" r="90"/>
+    <circle cx="300" cy="300" r="150"/>
+    <circle cx="300" cy="300" r="210"/>
+  </g>
+  <g transform="translate(220,190)">
+    <circle cx="80" cy="80" r="86" fill="#ffffff" fill-opacity="0.95"/>
+    <circle cx="80" cy="80" r="86" fill="none" stroke="#22d3c9" stroke-width="3"/>
+    <circle cx="80" cy="80" r="58" fill="none" stroke="#c9c2ff" stroke-width="6" stroke-dasharray="4 8"/>
+    <g stroke="#7c5cff" stroke-width="6" stroke-linecap="round">
+      <line x1="52" y1="46" x2="52" y2="78"/>
+      <line x1="46" y1="46" x2="46" y2="66"/>
+      <line x1="58" y1="46" x2="58" y2="66"/>
+      <line x1="52" y1="78" x2="52" y2="112"/>
+    </g>
+    <path d="M104 46 v66 M96 46 c0 18 8 18 8 30 M112 46 c0 18 -8 18 -8 30" stroke="#22d3c9" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="300" y="460" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="28" font-weight="700" fill="#ffffff">CampusBites</text>
+  <text x="300" y="492" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="15" fill="#d9f4f2">Smart Canteen Ordering System</text>
+</svg>

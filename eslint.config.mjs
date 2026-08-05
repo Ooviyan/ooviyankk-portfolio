@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored third-party components (React Bits) — kept as-is from upstream.
+    "src/components/reactbits/**",
+    // Vendored shadcn/ui-style component — kept as-is from upstream.
+    "src/components/ui/**",
   ]),
 ]);
 
