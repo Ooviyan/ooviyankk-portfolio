@@ -2,6 +2,8 @@
 
 Personal portfolio site built with Next.js and Tailwind CSS.
 
+![Screenshot](.github/screenshot.png)
+
 ## Stack
 
 - [Next.js](https://nextjs.org) (App Router) + React + TypeScript
