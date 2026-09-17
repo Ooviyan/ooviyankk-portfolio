@@ -62,7 +62,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="mx-auto hidden w-full max-w-[280px] lg:block">
+        <div className="mx-auto w-full max-w-[280px]">
           <ProfileCard
             name={profile.name}
             title="Computer Science Student"
