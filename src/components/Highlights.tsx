@@ -7,7 +7,7 @@ export default function Highlights() {
       <Reveal>
         <h2 className="text-sm font-medium uppercase tracking-widest text-accent-2">Highlights</h2>
         <p className="mt-2 max-w-xl text-2xl font-semibold tracking-tight text-foreground">
-          Wins, what I'm building now, and what's next.
+          Wins, what I&apos;m building now, and what&apos;s next.
         </p>
       </Reveal>
 

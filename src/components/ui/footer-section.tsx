@@ -31,10 +31,10 @@ function LinkedinIcon({ className }: { className?: string }) {
 }
 
 const quickLinks = [
-  { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
-  { label: "Highlights", href: "#highlights" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Highlights", href: "/#highlights" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 function Footerdemo() {

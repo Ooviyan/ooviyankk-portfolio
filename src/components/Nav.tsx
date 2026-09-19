@@ -1,14 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { profile } from "@/lib/data";
 import GooeyNav from "@/components/reactbits/GooeyNav";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#highlights", label: "Highlights" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#projects", label: "Projects" },
+  { href: "/#highlights", label: "Highlights" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -17,9 +18,9 @@ export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b bg-background/70 backdrop-blur-md">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <a href="#top" className="font-semibold tracking-tight text-foreground">
+        <Link href="/" className="font-semibold tracking-tight text-foreground">
           {profile.name}
-        </a>
+        </Link>
 
         <div className="hidden sm:block">
           <GooeyNav items={links} initialActiveIndex={-1} />
