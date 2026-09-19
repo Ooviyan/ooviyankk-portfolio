@@ -1,11 +1,11 @@
 "use client";
 
-import { Scale, UtensilsCrossed, CalendarDays } from "lucide-react";
+import { Scale, UtensilsCrossed, CalendarDays, HardHat } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import ProjectCard from "@/components/ProjectCard";
 import { projects } from "@/lib/data";
 
-const icons = [Scale, UtensilsCrossed, CalendarDays];
+const icons = [Scale, UtensilsCrossed, CalendarDays, HardHat];
 
 export default function Projects() {
   return (
@@ -13,14 +13,14 @@ export default function Projects() {
       <Reveal>
         <h2 className="text-sm font-medium uppercase tracking-widest text-accent-2">Projects</h2>
         <p className="mt-2 max-w-xl text-2xl font-semibold tracking-tight text-foreground">
-          Things I&apos;ve built and shipped.
+          Things I&apos;ve built and I&apos;m building.
         </p>
         <p className="mt-2 max-w-xl text-sm text-muted-foreground">
           Click a project to see the full breakdown.
         </p>
       </Reveal>
 
-      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-2">
         {projects.map((project, i) => (
           <Reveal key={project.name} delay={i * 100}>
             <ProjectCard project={project} icon={icons[i] ?? Scale} />
